@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f7f7f7;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    nav ul li {
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+    
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        background-image: url("diet-and-nutrition-banner-1170x658.jpg");
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+       animation-name: textt;
+       animation-duration: 2s;
+       animation-delay: 2s;
+       animation-iteration-count: infinite;
+    }
+    @keyframes textt {
+        0%{
+            color: #00ff8c;
+        }
+        20%{
+            color: #8dffbc;
+        }
+        50%{
+            color: #40b370;
+        }
+        80%{
+            color: #00b14a;
+        }
+        100%{
+            color: #00ff6a;
+        }
+    }
+    .banner h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    
+    .banner p {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    
+    .btn {
+        padding: 15px 30px;
+        background-color: #2ecc71;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .features {
+        padding: 80px 0;
+        background-color: #fff;
+    }
+    
+    .features h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .features p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .features .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .features .box {
+        flex-basis: 30%;
+        padding: 20px;
+        background-color: #f1f1f1;
+        text-align: center;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .features .box i {
+        font-size: 60px;
+        color: #2ecc71;
+        margin-bottom: 20px;
+    }
+    
+    .gallery {
+        padding: 80px 0;
+        background-color: #f7f7f7;
+    }
+    
+    .gallery .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .gallery .box {
+        flex-basis: calc(33.33% - 20px);
+        margin-bottom: 40px;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+    
+    .gallery .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease-in;
+    }
+    
+    .gallery .box:hover img {
+        transform: scale(1.1);
+    }
+    
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+        .banner::before{
+            opacity: 0.7;
+        }
+     .box{
+        animation-name: H;
+            animation-duration: 4s;
+            animation-delay: 4s;
+            animation-iteration-count: infinite;
+        }
+    
+        @keyframes H {
+            0% {
+                color: #1e4936;
+            }
+        
+            20% {
+                color: #00a143;
+            }
+        
+            50% {
+                color: #2abd8e;
+            }
+        
+            80% {
+                color: #09b85b;
+            }
+        
+            100% {
+                color: #14a975;
+            }
+        }
+    
+                nav ul li a:hover{
+                    color: #00b14a;
+                }
